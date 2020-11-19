@@ -5,7 +5,7 @@ function MainContent() {
         <main className="content">
             <h1>Mr. Kabir</h1>
             <p>I'm a single nice dev guy. Looking for internship for my master's degree.</p>
-            <ol>Places want to visit next...
+            <ol>
                 <li>Salzburg</li>
                 <li>Santorini</li>
                 <li>Ibiza</li>

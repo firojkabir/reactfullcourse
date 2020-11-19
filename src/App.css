@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -12,7 +12,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+/* 
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -22,7 +22,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 .App-link {
   color: #61dafb;
@@ -37,29 +37,29 @@
   }
 }
 
-.navbar {
+/* .navbar {
   height: 70px;
   background-color: #333;
   color: whitesmoke;
-  /* margin-bottom: 15px; */
+  margin-bottom: 15px;
   text-align: center;
   font-size: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
-.content {
+/* .content {
   min-height: 500px;
   background-color: cadetblue;
-  /* text-align: center; */
+  text-align: center;
   font-size: 20px;
-}
+} */
 
-.footer {
+/* .footer {
   min-height: 50px;
   background-color: #111;
   color: whitesmoke;
   text-align: center;
   font-size: 15px;
-}
+} */

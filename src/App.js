@@ -3,15 +3,17 @@ import React from 'react';
 import Header from './components/Header'
 import MainContent from './components/MainContent'
 import Footer from './components/Footer'
+import ToDoApp from './components/ToDoApp'
 
 import './App.css';
 
 function App() {
     return (
         <div className="App">
-            <Header />
+            {/* <Header />
             <MainContent />
-            <Footer />
+            <Footer /> */}
+            <ToDoApp />
         </div>
     );
 }
