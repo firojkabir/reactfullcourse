@@ -2,7 +2,15 @@ import React from 'react'
 
 function MainContent() {
     return(
-        <main>This is the main content</main>
+        <main className="content">
+            <h1>Mr. Kabir</h1>
+            <p>I'm a single nice dev guy. Looking for internship for my master's degree.</p>
+            <ol>Places want to visit next...
+                <li>Salzburg</li>
+                <li>Santorini</li>
+                <li>Ibiza</li>
+            </ol>
+        </main>
     )
 }
 
