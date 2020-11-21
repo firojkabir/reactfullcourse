@@ -7,13 +7,19 @@ function MainContent() {
     const date = new Date()
     const hours = date.getHours()
     let timeOfDay
+    const styles = {
+        fontSize: 30
+    }
 
     if (hours < 12) {
         timeOfDay = "morning"
+        styles.color = "#2dd684"
     } else if (hours >= 12 && hours < 17) {
         timeOfDay = "afternoon"
+        styles.color = "#d69e2d"
     } else {
         timeOfDay = "night"
+        styles.color = "#2d68d6"
     }
 
     return(
@@ -27,7 +33,7 @@ function MainContent() {
                 <li>Ibiza</li>
             </ol>
 
-            <h2>Good {timeOfDay}</h2>
+            <h2 style={styles}>Good {timeOfDay}</h2>
         </main>
     )
 }
