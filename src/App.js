@@ -3,19 +3,25 @@ import React from 'react'
 import Header from './components/Header'
 import MainContent from './components/MainContent'
 import Footer from './components/Footer'
+
 import ToDoApp from './components/ToDoApp'
+
 import ContactCard from './components/ContactCard'
+
+import Joke from './components/Joke'
+import jokesData from './components/jokesData'
 
 import './App.css';
 
 function App() {
+    const jokesComponent = jokesData.map(joke => <Joke key={joke.id} question={joke.question} punchLine={joke.punchLine} />)
     return (
         <div className="App">
             {/* <Header />
             <MainContent />
             <Footer /> */}
             {/* <ToDoApp /> */}
-            <ContactCard 
+            {/* <ContactCard 
                 contact={{name:"Mr. Whiskerson", imgUrl:"http://placekitten.com/300/200", phone:"(212) 555-1234", email:"mr.whiskaz@catnap.meow" }}
             />
             <ContactCard 
@@ -25,7 +31,8 @@ function App() {
             <ContactCard 
                 contact={{name:"Destroyer", imgUrl:"http://placekitten.com/200/300", phone:"(212) 555-4567", email:"ofworlds@yahoo.com"}}
                  
-            />
+            /> */}
+            {jokesComponent}
         </div>
     );
 }
