@@ -12,6 +12,7 @@ import Joke from './components/Joke'
 import jokesData from './components/jokesData'
 
 import ClassCompo from './components/ClassCompo'
+import StateCompo from './components/StateCompo'
 
 import './App.css';
 
@@ -37,7 +38,8 @@ function App() {
                  
             /> */}
             {/* {jokesComponent} */}
-            <ClassCompo />
+            {/* <ClassCompo /> */}
+            <StateCompo />
         </div>
     );
 }
