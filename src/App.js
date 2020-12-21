@@ -11,6 +11,8 @@ import ContactCard from './components/ContactCard'
 import Joke from './components/Joke'
 import jokesData from './components/jokesData'
 
+import ClassCompo from './components/ClassCompo'
+
 import './App.css';
 
 function App() {
@@ -22,7 +24,7 @@ function App() {
             {/* <Header />
             <MainContent />
             <Footer /> */}
-            <ToDoApp />
+            {/* <ToDoApp /> */}
             {/* <ContactCard 
                 contact={{name:"Mr. Whiskerson", imgUrl:"http://placekitten.com/300/200", phone:"(212) 555-1234", email:"mr.whiskaz@catnap.meow" }}
             />
@@ -35,6 +37,7 @@ function App() {
                  
             /> */}
             {/* {jokesComponent} */}
+            <ClassCompo />
         </div>
     );
 }
